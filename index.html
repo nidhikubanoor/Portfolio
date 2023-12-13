@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet"   href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">Port<span style="color: #ff007f;">folio</span></a>
+        </div>
+        
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+        <ul class="menu" id="menu">
+            
+            <li><a href="#" style="color: #ff007f;">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <section class="home" id="home">
+        <div class="home-detail">
+        <h3>Hello, It's Me</h3>
+        <h1>Nidhi K</h1>
+        <h2>Web Developer <span id="text" style="color: #ff007f;"> </span></h2>
+        <p>I'm a CSE undergraduate studying at
+            RV Institute of Techonology and Management.I
+            have been passionately involved in front-end
+            development.</p>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="assets/profile.png" alt="" style="height: 350px; border: 2px solid #ff007f;" >
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/profile.png">
+        </div>
+        <div class="about-section">
+            <h2 class="allheading">About <span style="color: #da458f;">Me</span></h2>
+            <h3>Frontend Devloper</h3>
+            <p>I'm a CSE undergraduate from India studying at
+                RV Institute of Techonology and Management.I
+                have been passionately involved in front-end
+                development.</p>
+            <a href="#" class="btn">Read More</a>    
+        </div>
+    </section>
+    <section class="service" id="service">
+        <h2 class="allheading">Our <span style="color: #f94ba2;">Services</span></h2>
+        <div class="service-section">
+        <div class="service-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Front-end Development</h3>
+            <p>A Front-End Developer designs and implements user interfaces using HTML, CSS, and JavaScript to create visually appealing and responsive web applications. They collaborate with UX/UI designers, ensuring the seamless integration of design concepts into functional interfaces.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="service-box">
+            <i class="fa-sharp fa-solid fa-database"></i>
+            <h3>Data Structures and algorithms</h3>
+            <p>Data structures are frameworks for organizing and storing data, such as arrays, linked lists, and trees. Algorithms, on the other hand, are step-by-step procedures that define the logic for solving computational problems or performing specific tasks.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="service-box">
+            <i class="fa-brands fa-github"></i>
+            <h3>Github</h3>
+            <p>GitHub is a web-based platform that acts as a version control system for code repositories. It enables developers to collaboratively work on projects by managing changes, tracking issues, and facilitating seamless integration.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="service-box">
+            <i class="fa-brands fa-bootstrap"></i>
+            <h3>Bootstrap</h3>
+            <p>Bootstrap is an open-source front-end framework, created by Twitter, that streamlines web development by providing a collection of pre-designed, responsive components and styles.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        </div>
+        </section> 
+        <section class="portfolio" id="portfolio">
+            <h2>Recent <span style="color: #ff007f;">Projects</span></h2>
+        </div>
+        <div class="portfolio-section">
+        <div class="portfolio-box">
+            <img src="assets/project1.jpg" alt="">
+            <div class="portfolio-head">
+                <h4>Web Design and Database managing</h4>
+                <p>A Tourism Website using HTML, tailwind CSS, and javascipt</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+       
+        <div class="portfolio-box">
+            <img src="assets/project1.jpg" alt="">
+            <div class="portfolio-head">
+                <h4>Mobile Application Development</h4>
+                <p>Image Steganography  is done by using LSB steganographic embedding to encode data into an image</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="assets/project1.jpg" alt="">
+            <div class="portfolio-head">
+                <h4>Agribot Design</h4>
+                <p>Agribot is an autonomous robot deployed for agricultural purposes that helps farmer in the farmland.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="allheading">Contact <span style="color: #ff007f;">Us</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject For">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" ></textarea>   
+            <input type="submit" class="btn-1" value="Send Message">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="text">
+            </div>
+           
+        </div>
+    </footer>
+
+    <script src="HamburgerMenu.js"></script>
+</body>
+</html>
